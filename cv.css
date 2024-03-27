@@ -1,107 +1,256 @@
-html{
-    font-family: Bold, Regular, sans-serif;
-    font-size: 62.5%;
-
+main{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-.Photo_profil{
-    width: 10%;
-    height: 10%;
-    background-color: #417694;
-    border: 8px solid #417694;
-    border-radius: 0px;
+.cv_ensemble{
     position: relative;
+    width: 100% ;
+    background: #fff;
+    display: grid;
+    margin: 0px auto;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1000 px ;
+    max-height: 2000 px ;
+    box-shadow: 0 35px 55px rgb(0, 0, 0,0.1);
 }
-.sow{
-    padding: 1rem 1rem;
-    width: 121px;
-    height: 14px;
-    color: white;
-    background-color: #417694;
-    border-radius: 0%;
-    text-align: center;
-}
-.carac{
-    padding: 1rem 1rem;
-    width: 121px;
-    height: 14px;
-    color: white;
-    background-color: #417694;
-    border-radius: 0%;
-    text-align: center;
-}
-.info_perso p img{
-    width: 20px;
-    height: 20px;
-    margin-bottom: -4px;
-    margin-right: 20px;
-    background-color: #417694;
-    color: white;
-}
-.info{
-    
-}
-.Réseaux{
-    padding: 1rem 1rem;
-    width: 121px;
-    height: 14px;
-    color: white;
-    background-color: #417694;
-    border-radius: 0%;
-    text-align: center;
-}
-.infor p img{
-    width: 20px;
-    height: 20px;
-    margin-bottom: -4px;
-    margin-right: 20px;
-    color: white;
-}
-.ligne{
-    padding: 0rem 1rem;
-    background-color: #F5F5F5;
-}
-.ligne_2{
-    padding: 0rem 1rem;
-    background-color: #F5F5F5;
-}
-.premier{
-    background-color: #417694;
-    padding: 1rem 3rem;
-    
-}
-.langues p img{
-    width: 20px;
-    height: 20px;
-    margin-bottom: -4px;
-    margin-right: 20px;
-    color: white;
-}
-.section_gauche_1{
-    
-    background-color: #417694;
-    padding: 1rem 3rem;
-    width: 111px;
-}
-.section_gauche_2{
-    background-color: #417694;
-    padding: 1rem 3rem;
-    width: 111px;
-    
-}
-.Loi{
-    padding: 1rem 1rem;
-    width: 121px;
-    height: 14px;
-    color: white;
-    background-color: #417694;
-    border-radius: 0%;
-    text-align: center;
-}
-.loisirs p img{
-    width: 20px;
-    height: 20px;
-    margin-bottom: -4px;
-    margin-right: 20px;
-    color: white;
 
+
+.cv_ensemble .Section_gauche{
+    position: relative;
+    padding: 40px;
+    background:#417694 ;
+    
+}
+
+
+.Profil  .jouer{
+    position: relative;
+    width: 300px;
+    height: 300px; 
+    overflow: hidden;
+       /* border-radius: 50%; */
+
+    
+}
+.Profil  .jouer img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+
+}
+
+
+.Contact .Info_contact{
+    color: #fff;
+    text-align: center;
+    
+
+}
+.paragraphe{
+    color: #fff;
+}
+
+.Contact{
+    border-bottom: 1px solid #F5F5F5
+    ;
+}
+
+
+
+.Contact ul li {
+    list-style: none;
+}
+
+
+.info_1{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+
+
+.info_2{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+
+.info_3{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+
+
+.Réseaux ul li {
+    list-style: none;
+}
+
+.Réseaux{
+    border-bottom: 1px solid #F5F5F5
+    ;
+}
+
+.Réseaux .Info_réseaux{
+    color: #fff;
+    text-align: center;
+    
+
+}
+
+.facebook_1{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+
+
+.instagram_2{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+
+
+.linkedin_3{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+
+.Langues ul li {
+    list-style: none;
+}
+
+.Langues{
+    border-bottom: 1px solid #F5F5F5
+    ;
+}
+
+.Langues .Info_Langues{
+    color: #fff;
+    text-align: center;
+    
+
+}
+
+.progression{
+    color: #4b2d2d;
+}
+
+.carré{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+@media screen and ( max-width: 688px)  {
+
+    .cv_ensemble {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
+
+
+
+.Loisirs ul li {
+    list-style: none;
+}
+
+
+.Loisirs .Info_loisirs{
+    color: #fff;
+    text-align: center;
+    
+
+}
+
+
+.carr{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+
+
+
+.cv_ensemble .section_droite{
+    position: relative;
+    padding: 40px;
+    
+    
+}
+
+
+.exp .pro{
+
+    color: #417694;  
+
+}
+
+.Formation .formation{
+    
+    color: #417694;  
+
+}
+
+.Compétence .compé{
+    
+    color: #417694;  
+
+}
+
+
+.carré_noir{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+
+.exp ul li {
+    list-style: none;
+}
+
+.Formation ul li {
+    list-style: none;
+}
+
+
+.Compétence ul li {
+    list-style: none;
+}
+
+
+.photo{
+    width: 20px ;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
 }
