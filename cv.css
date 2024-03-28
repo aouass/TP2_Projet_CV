@@ -1,3 +1,4 @@
+/* stylisation de ma balise main en jouant sur les paramètres */
 main{
     background-color: #fff;
     display: flex;
@@ -5,6 +6,8 @@ main{
     align-items: center;
     min-height: 100vh;
 }
+
+/* stylisation de ma balise div avec la classe cv_ensemble en jouant sur les paramètres */
 .cv_ensemble{
     position: relative;
     width: 100% ;
@@ -17,7 +20,7 @@ main{
     box-shadow: 0 35px 55px rgb(0, 0, 0,0.1);
 }
 
-
+/* stylisation de ma balise div avec la classe Section_gauche en jouant sur les paramètres */
 .cv_ensemble .Section_gauche{
     position: relative;
     padding: 40px;
@@ -25,16 +28,16 @@ main{
     
 }
 
-
+/* stylisation des éléments de profil  en jouant sur les paramètres */
 .Profil  .jouer{
     position: relative;
     width: 300px;
     height: 300px; 
     overflow: hidden;
-       /* border-radius: 50%; */
+    border-radius: 50%;
 
     
-}
+ } 
 .Profil  .jouer img{
     position: absolute;
     width: 100%;
@@ -44,16 +47,18 @@ main{
 
 }
 
-
+/* stylisation des éléments paragraphe, contact  en jouant sur les paramètres */
 .Contact .Info_contact{
     color: #fff;
     text-align: center;
     
 
 }
+
+
 .paragraphe{
     color: #fff;
-}
+} 
 
 .Contact{
     border-bottom: 1px solid #F5F5F5
@@ -66,7 +71,7 @@ main{
     list-style: none;
 }
 
-
+/* stylisation des éléments logo  en jouant sur les paramètres */
 .info_1{
     width: 20px ;
     height: 20px;
@@ -91,10 +96,10 @@ main{
     margin-top: 2%;
     margin-right: 2%;
 
-}
+} 
 
 
-
+/* stylisation de ma balise div avec la classe réseaux en jouant sur les paramètres */
 .Réseaux ul li {
     list-style: none;
 }
@@ -110,6 +115,9 @@ main{
     
 
 }
+
+
+/* stylisation  de chaque élément des réseaux  en jouant sur les paramètres */
 
 .facebook_1{
     width: 20px ;
@@ -139,6 +147,8 @@ main{
 }
 
 
+
+/* stylisation de ma balise div avec la classe langues en jouant sur les paramètres */
 .Langues ul li {
     list-style: none;
 }
@@ -151,14 +161,16 @@ main{
 .Langues .Info_Langues{
     color: #fff;
     text-align: center;
-    
+     
 
 }
 
-.progression{
+/* .progression{
     color: #4b2d2d;
-}
+} */
 
+
+/* stylisation de ma balise div avec la classe carré en jouant sur les paramètres */
 .carré{
     width: 20px ;
     height: 20px;
@@ -166,6 +178,9 @@ main{
     margin-right: 2%;
 
 }
+
+
+/* stylisation de la responsivité  */
 
 @media screen and ( max-width: 688px)  {
 
@@ -175,7 +190,7 @@ main{
 }
 
 
-
+/* stylisation de ma balise div avec la classe loisirs en jouant sur l'affichage des listes */
 .Loisirs ul li {
     list-style: none;
 }
@@ -189,6 +204,7 @@ main{
 }
 
 
+/* stylisation de ma balise div avec la classe carr en jouant sur les paramètres */
 .carr{
     width: 20px ;
     height: 20px;
@@ -198,7 +214,7 @@ main{
 
 
 
-
+/* stylisation de ma balise div avec la classe section_droite en jouant sur les paramètres */
 .cv_ensemble .section_droite{
     position: relative;
     padding: 40px;
@@ -206,7 +222,7 @@ main{
     
 }
 
-
+/* stylisation de ma balise div avec la classe pro, formation et compé en jouant sur la couleur des textes */
 .exp .pro{
 
     color: #417694;  
@@ -226,6 +242,7 @@ main{
 }
 
 
+/* stylisation de ma balise div avec la classe carré_noir en jouant sur les paramètres */
 .carré_noir{
     width: 20px ;
     height: 20px;
@@ -233,7 +250,7 @@ main{
     margin-right: 2%;
 }
 
-
+/* stylisation de ma balise div avec les classe exp,formation et compétence en jouant sur l'affichage des listes */
 .exp ul li {
     list-style: none;
 }
@@ -248,6 +265,7 @@ main{
 }
 
 
+/* stylisation de ma balise div avec la classe photo en jouant sur les paramètres */
 .photo{
     width: 20px ;
     height: 20px;
