@@ -7,11 +7,18 @@ main{
     min-height: 100vh;
 }
 
+:root{
+    --color-1-bleue:#417694;
+    --color-1-blanc:#ffffff;
+    --color-1-noir:#000000;
+}
+
+
 /* stylisation de ma balise div avec la classe cv_ensemble en jouant sur les paramètres */
 .cv_ensemble{
     position: relative;
     width: 100% ;
-    background: #fff;
+    background:var(--color-1-blanc);
     display: grid;
     margin: 0px auto;
     grid-template-columns: 1fr 2fr;
@@ -24,7 +31,7 @@ main{
 .cv_ensemble .Section_gauche{
     position: relative;
     padding: 40px;
-    background:#417694 ;
+    background:var(--color-1-bleue);
     
 }
 
@@ -49,7 +56,7 @@ main{
 
 /* stylisation des éléments paragraphe, contact  en jouant sur les paramètres */
 .Contact .Info_contact{
-    color: #fff;
+    color:var(--color-1-blanc);
     text-align: center;
     
 
@@ -57,7 +64,7 @@ main{
 
 
 .paragraphe{
-    color: #fff;
+    color:var(--color-1-blanc);
 } 
 
 .Contact{
@@ -110,7 +117,7 @@ main{
 }
 
 .Réseaux .Info_réseaux{
-    color: #fff;
+    color:var(--color-1-blanc);
     text-align: center;
     
 
@@ -159,7 +166,7 @@ main{
 }
 
 .Langues .Info_Langues{
-    color: #fff;
+    color:var(--color-1-blanc);
     text-align: center;
      
 
@@ -197,7 +204,7 @@ main{
 
 
 .Loisirs .Info_loisirs{
-    color: #fff;
+    color:var(--color-1-blanc);
     text-align: center;
     
 
@@ -225,19 +232,19 @@ main{
 /* stylisation de ma balise div avec la classe pro, formation et compé en jouant sur la couleur des textes */
 .exp .pro{
 
-    color: #417694;  
+    color:var(--color-1-bleue);  
 
 }
 
 .Formation .formation{
     
-    color: #417694;  
+    color:var(--color-1-bleue);  
 
 }
 
 .Compétence .compé{
     
-    color: #417694;  
+    color:var(--color-1-bleue);  
 
 }
 
